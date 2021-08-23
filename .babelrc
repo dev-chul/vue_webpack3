@@ -1,0 +1,14 @@
+{
+  // when add to babel-preset in package.json, modify this area.
+  "presets": [
+    "@babel/preset-react",
+    ["@babel/preset-env"]
+  ],
+  // when add to babel-plugin in package.json, modify this area.
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "babel-plugin-dynamic-import-node",
+    // "babel-plugin-transform-es2015-modules-commonjs",
+    "babel-plugin-transform-vue-jsx"
+  ]
+}
